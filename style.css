@@ -1,0 +1,41 @@
+body {
+    background-image: url("./bg-pag-info.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    min-width: 302px;
+}
+
+.h2-header {
+    top: 15px;
+    left: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.h1-main {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.h1-main::after {
+    content: "";
+    position: absolute;
+    border-top: 2px solid rgb(82, 82, 82);
+    width: 270px;
+    top: 100px;
+    left: 17%;
+}
+
+.div-span {
+    font-size: 19px;
+    margin-top: 30px;
+}
+
+.span-main {
+    font-family: 'Roboto', sans-serif;
+}
+
+.span-yan {
+    bottom: 0;
+    left: 0;
+}
